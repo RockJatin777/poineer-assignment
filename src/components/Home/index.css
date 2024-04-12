@@ -1,0 +1,69 @@
+.app-container {
+  display: flex;
+  background-color: #0c1111;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.graph-container {
+  padding-left: 40px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.name {
+  color: #8faf28;
+  font-family: Bree serif;
+  font-weight: 500;
+}
+
+.failure-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.failure-view {
+  width: 400px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chart-heading {
+  text-align: center;
+}
+
+@media screen and (max-width: 765px) {
+  .app-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .graph-container {
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .chart-heading {
+    font-size: 14px;
+  }
+
+  .container-heading {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,55 @@
+.organization-container {
+  display: flex;
+  background-color: #0c1111;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-height: 100vh;
+  color: #ffffff;
+  width: 100%;
+}
+
+.industries-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.organizations {
+  width: 100%;
+  padding-left: 36px;
+}
+
+.com-head {
+  font-weight: 500;
+  width: 80%;
+  text-align: center;
+}
+
+.industries {
+  background-color: #cdf3e3;
+  margin: 24px;
+}
+
+@media screen and (max-width: 765px) {
+  .organization-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .com-head {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .organizations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .industries {
+    margin: 16px;
+  }
+}

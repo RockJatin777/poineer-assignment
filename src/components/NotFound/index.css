@@ -1,0 +1,37 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0c1111;
+  color: #ffffff;
+  width: 100%;
+}
+.not-found-img {
+  width: 50%;
+}
+
+.not-found {
+  display: flex;
+  width: 100%;
+  background-color: #0c1111;
+  width: 100%;
+}
+
+@media screen and (max-width: 765px) {
+  .not-found {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .not-found-heading {
+    font-size: 16px;
+  }
+
+  .not-found-description {
+    font-size: 13px;
+    text-align: center;
+    width: 80%;
+  }
+}
